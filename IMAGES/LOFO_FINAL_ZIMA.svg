@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 157.02 74.59">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #231f20;
+        font-family: LustScript-Fine, 'Lust Script';
+        font-size: 56.64px;
+      }
+
+      .cls-2 {
+        font-family: TimesNewRomanPSMT, 'Times New Roman';
+        font-size: 12px;
+      }
+
+      .cls-3 {
+        fill: none;
+      }
+
+      .cls-4 {
+        fill: #ff0a18;
+        stroke: #ff3615;
+        stroke-miterlimit: 10;
+        stroke-width: 2px;
+      }
+
+      .cls-5 {
+        fill: #191970;
+      }
+    </style>
+  </defs>
+  <g>
+    <rect class="cls-3" width="157.02" height="57.44" rx="7.97" ry="7.97"/>
+    <text class="cls-1" transform="translate(58.99 50.74) scale(.76 1)"><tspan x="0" y="0">ima</tspan></text>
+    <g>
+      <g>
+        <path class="cls-5" d="M51.69,43.88c1.19,3.12-9.05,12.33-19.57,11.19-8.12-.88-15.15-7.79-13.96-10.7,.78-1.93,6.1-1.97,16.74-2.06,10.76-.09,16.14-.13,16.79,1.57Z"/>
+        <path class="cls-5" d="M22.34,50.77c-3.57-.35-8.15-12.81-2.46-21.07,4.39-6.37,14.2-9.24,16.54-7.01,1.55,1.48-.72,5.92-5.25,14.8-4.59,8.98-6.88,13.47-8.83,13.28Z"/>
+      </g>
+      <g>
+        <path class="cls-5" d="M24.79,15.22c-1.16-3.13,9.15-12.27,19.66-11.07,8.11,.93,15.08,7.88,13.88,10.79-.8,1.92-6.12,1.94-16.76,1.96-10.76,.02-16.14,.03-16.78-1.68Z"/>
+        <path class="cls-5" d="M54.21,8.52c3.57,.37,8.04,12.87,2.29,21.08-4.44,6.34-14.28,9.15-16.6,6.9-1.54-1.49,.77-5.91,5.37-14.76,4.66-8.95,6.99-13.43,8.94-13.22Z"/>
+      </g>
+    </g>
+  </g>
+  <line class="cls-4" x1="13.14" y1="57.59" x2="147.14" y2="58.59"/>
+  <text class="cls-2" transform="translate(12.42 68.3)"><tspan x="0" y="0">REFRESHING BEVRAGE</tspan></text>
+</svg>
