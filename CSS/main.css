@@ -99,4 +99,20 @@ list-style: none;}
     margin-top: 20px;
     
  }
+ #collection  {
+    display: flex;
+    margin-top: 30px;
+    grid-column: 1/-1;
+    margin-right: 70px;
+
+ }
+#collection h2 {
+    text-align: center;
+}
+
+#team{
+    background-color: aqua;
+    display: flex;
+}
+ 
  
