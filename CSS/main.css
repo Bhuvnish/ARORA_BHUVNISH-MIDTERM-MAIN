@@ -109,10 +109,55 @@ list-style: none;}
 #collection h2 {
     text-align: center;
 }
-
-#team{
-    background-color: aqua;
-    display: flex;
+#team   {
+    
+    display:flex;
+    padding-top: 200px;
+  
+   
 }
+
  
+#team h3{
+    text-align: center;
+    font-size: 40px;
+    margin-right: 200px;
+}
+#team  img{
+    margin-right: 200px;
+    
+}
+#team a
+{
+    padding-top: 500px;
+color: #000;
+
+
+}
+#footer-nav {
+	grid-column: 3/11;
+	margin-top: 70px;
+}
+
+#footer-nav ul{
+	list-style: none;
+	font-size: 19px;
+	padding: 0;
+    margin: 0;
+}
+ #footer-nav ul li {
+	display: inline;
+ }
  
+ #footer-nav ul li a{ color:black;
+align-items: center;
+padding-right: 100px;
+list-style: none;}
+
+#footer-logo{
+    grid-column: 1/3;
+    margin-top: 35px;
+    width: 200px;
+    height: 150px;
+    
+} 
