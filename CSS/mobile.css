@@ -25,6 +25,8 @@
 }
 #hero-image{
     grid-column: 1/-1;
+    padding: 0px;
+    margin: auto;
     
 }
 
@@ -53,8 +55,118 @@
  }
  #collection  {
     display: inline;
-    padding-left: 20px;
+    text-align:  center;
    
     
 
  }
+ #collection div {
+    padding-left: 80px;
+    
+
+ }
+  #collection div  h3{
+    font-size: 30px;
+    padding-left: 40px;
+  }
+  #collection div a{
+    color: goldenrod;
+    font-size: 30px;
+    border-radius: 2px;
+    padding-left: 70PX;
+    text-decoration: none;
+    ;
+   
+  }
+  #collection h2{
+    text-align: center;
+    padding-left: 80px;
+    font-size: 50px;
+    color: goldenrod;
+  } 
+  #contact-text {
+	grid-column: 1/-1;
+	/* Remove as content will dictate height */
+	margin-bottom: 10px;
+	font-size: 25px;
+	height: 300px;
+	
+}
+#contact-form textarea {
+    height: 300px;
+	
+}
+input, textarea {
+    padding: 12px;
+   border: 2px solid ;
+    border-radius:  15px;
+    background-color:black;
+    margin-bottom: 30px;
+    font: inherit;
+	font-size: 15px;
+	color:goldenrod;
+	
+}
+input[type="submit"] {
+    width: 150px;
+    padding: 16px 32px;
+    background-color:black;
+    color: #fff;
+    border: none;
+    transition: all 200ms ease-in;
+    align-self: center;
+}
+
+input[type="submit"]:hover {
+    background-color: goldenrod;
+    border-radius: 0;
+}
+
+
+#contact-form {
+	grid-column: 1/-1;
+	margin-bottom: 30px;
+	font-family: 'Times New Roman', Times, serif;
+	
+	
+	
+	
+}
+
+#contact-form form {
+    display: flex;
+    flex-direction: column;}
+  
+ 
+    
+    #footer-nav ul{
+        grid-column: 1/4;
+        list-style: none;
+        font-size: 19px;
+        padding: 30px;
+        margin: 0;
+    }
+     #footer-nav ul li {
+        display: inline;
+        padding-top: 30px;
+     }
+     
+     #footer-nav ul li a{ color:black;
+    align-items: center;
+    grid-column: 1/4;
+    padding-bottom: 40px;
+   
+    list-style: none;
+text-decoration: none;}
+    
+    #footer-logo{
+        grid-column: 1/-1;
+        margin-top: 35px;
+        width: 200px;
+        height: 80px;
+        
+    } 
+    
+    #footer p{
+        grid-column: 1/-1;
+    }
