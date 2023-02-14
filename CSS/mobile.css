@@ -172,4 +172,125 @@ text-decoration: none;}
     }
  /* new arrival page rules goes here*/
 
+#new-arrival h2{
+    font-size: 40px;
+    margin: auto;
+    padding-top: 30px;
+    padding-left: 15px;
+}
+
+
+ #new-arrival p{
+    font-size: 30px;
+   text-align: right;
+   color: goldenrod;
+   
+    margin: 0;
+    padding: 0;
+   
+   
+    
+    
+}
+    
+
+
+#white-ultra img{
+    grid-column: 1/4;
+    padding-top: 20px;
+}
+
+#white-ultra h2{
+    font-size: 20PX;
+    grid-column: 1/3;
+  
+   
+
+}
+#white-ultra a{
+    color: #000;
+    grid-column: 3/-1;
+   font-size: 20px;
+   padding-top: 18px;
+   padding-left: 60px;
+  
+
+  text-decoration: none;
  
+}
+
+
+#golden img{
+    grid-column: 1/4;
+    padding-top: 20px;
+}
+
+#golden h2{
+    font-size: 20PX;
+    grid-column: 1/3;
+  
+   
+
+}
+#golden a{
+    color: #000;
+    grid-column: 3/-1;
+   font-size: 20px;
+   padding-top: 18px;
+   padding-left: 60px;
+  
+
+  text-decoration: none;
+ 
+}
+
+
+#ultra-golden img{
+    grid-column: 1/4;
+    padding-top: 20px;
+}
+
+#ultra-golden h2{
+    font-size: 20PX;
+    grid-column: 1/3;
+  
+   
+
+}
+#ultra-golden a{
+    color: #000;
+    grid-column: 3/-1;
+   font-size: 20px;
+   padding-top: 18px;
+   padding-left: 60px;
+  
+
+  text-decoration: none;
+ 
+}
+
+
+#RED-EYE img{
+    grid-column: 1/4;
+    padding-top: 20px;
+}
+
+#RED-EYE h2{
+    font-size: 20PX;
+    grid-column: 1/3;
+  
+   
+
+}
+#RED-EYE a{
+    color: #000;
+    grid-column: 3/-1;
+   font-size: 20px;
+   padding-top: 18px;
+   padding-left: 60px;
+  
+
+  text-decoration: none;
+ 
+}
+
