@@ -41,7 +41,8 @@
  #main-nav ul li a{ color:black;
 align-items: center;
 padding-right: 15px;
-list-style: none;}
+list-style: none;
+text-decoration: none;}
 
 #main-nav ul li a:hover{
 	border-bottom: 2px solid #626262;
@@ -89,6 +90,7 @@ list-style: none;}
 
  #banner button a{
     color: black;
+    text-decoration: none;
  }
   
  #banner button {
@@ -99,17 +101,62 @@ list-style: none;}
     margin-top: 20px;
     
  }
- #collection  {
-    display: flex;
-    margin-top: 30px;
-    grid-column: 1/-1;
-    margin-right: 70px;
 
- }
-#collection h2 {
+
+
+/*collection rules goes here*/
+
+#collection  { 
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+ #collection  h2 {
+    font-size: 50px;
     text-align: center;
+    grid-column: 1/-1;
+    color: goldenrod;
 }
 
+#wine { 
+    grid-column: 1/3;
+    font-size: 40px;
+    text-align: center;
+    color: #626262;
+
+}
+#wine a {
+    color: #626262;
+    text-align: center;
+    text-decoration: none;
+}
+
+#beer{ 
+    grid-column: 4/6;
+    font-size: 40px;
+    text-align: center;
+    
+}
+#beer a {  color: #626262;
+    text-align: center;
+    text-decoration: none;}
+
+#VODKA{
+    grid-column: 7/9;
+    font-size: 40px;
+    text-align: center;
+}
+#VODKA a{
+    color: #626262;
+    text-align: center;
+    text-decoration: none;
+}
+#gin{ grid-column: 10/12;
+    font-size: 40px;
+    text-align: center;}
+
+ #gin a { color: #626262;
+    text-align: center;
+    text-decoration: none; }   
 
 #team  {
     display: flex;
@@ -119,13 +166,73 @@ list-style: none;}
     margin-right: 70px;
 
  }
-#team h3 {
-    text-align:center
-}
-#team div{
-    grid-column: 1/-1;
-    grid-row: 1/2;
+
+
+ /* contact form*/
+
+
+ input, textarea {
+    padding: 22px;
    
+    border-radius:  5px;
+   
+    margin-bottom: 30px;
+    font: inherit;
+	font-size: 35px;
+	
+	color: white;
+	
+}
+
+
+
+input[type="submit"] {
+    width: 250px;
+    padding: 26px 32px;
+    background-color: black;
+    color: white;
+    border: none;
+    transition: all 200ms ease-in;
+    align-self: center;
+}
+
+input[type="submit"]:hover {
+    background-color: goldenrod;
+    border-radius: 0;
+}
+
+
+ #contact {
+	margin-top: 100px;
+	margin-bottom: 100px;
+	font-family: 'Times New Roman', Times, serif;
+}
+
+
+#contact-text {
+	grid-column: 1/8;
+	/* Remove as content will dictate height */
+	height: 700px;
+	font-size: 40px;
+}
+
+#contact-form textarea {
+    height: 300px;
+    background-color: black;
+	
+}
+
+
+
+
+#contact-form {
+	grid-column: 8/-1;
+	/* Remove as content will dictate height */
+	height: 700px;
+}
+#contact-form form {
+    display: flex;
+    flex-direction: column;
 }
 
 
