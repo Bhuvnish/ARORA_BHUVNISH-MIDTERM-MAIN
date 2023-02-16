@@ -1,10 +1,11 @@
 .hidden {
     display: none;
 }
-
+ 
 .container {
     width: 428px;
     margin: 0 auto;
+    box-shadow: 2px 1px 20px 20px #98c1d9;
     /* text-align: center; */
 }
 
@@ -18,10 +19,26 @@
 }
 #main-header{
     grid-column:1/-1;
+    
+        box-shadow: 2px 1px 20px 20px #98c1d9;
+   
 }
+
 
 #header-logo{ 
     grid-column: 1/2;
+   
+}
+#burger{
+    height: 40px;
+    width: 80px;
+    grid-column: 4/-1;
+  
+  
+   padding: 0px;
+   margin-bottom: 0px;
+   
+    
 }
 #hero-image{
     grid-column: 1/-1;
@@ -30,29 +47,75 @@
     
 }
 
+#new-arrivals h2 {
+    text-align: center;
+    grid-column: 1/-1;
+    font-size: 30px;
+    margin-top: 40px;
+    margin-bottom: 10px;
+}
+
+
 #new-arrivals img {
     grid-column: 1/-1;}
+
+#new-arrivals {
+    box-shadow: 2px 1px 10px 0px #98c1d9;
+}
+#new-arrivals h2:hover{
+    color: #98c1d9;
+    transition: 1s ease;
+}
     
+#banner h2 {
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+    font-size: 12px;
+    text-align: left;
+    padding-left: 10px;
+}
+
+
  #banner{
      font-size: 16px;
-     grid-column: 1/4;
+   
      background-color: black;
      color: aliceblue;
      width: 400px;
  }   
- #banner button a{
-    color: black;
+#banner h2:hover{
+    font-size: 16px;
+    transition: 1s ease;
+}
+
+ #buy-now{
+    margin-top: 30px;
+    grid-column: 3/-1;
+    padding-left: 70px;
+
  }
+ #buy-now a {
+   
   
- #banner button {
-    margin-left: auto;
-    width: 105px;
-    height: 43px;
-    margin-right: 20px;
-  margin-left: 280px;
-  margin-bottom: 5px;
+    
+  
+  color: #fff;
+  text-decoration: none;
+
+
+ 
     
  }
+ #buy-now a:hover{
+    background-color: #98c1d9;
+    color: black;
+    font-size: 20PX;
+    transition: 1s;
+    border: 2px solid white;
+  
+}
+
+
  #collection  {
     display: inline;
     text-align:  center;
@@ -60,30 +123,66 @@
     
 
  }
- #collection div {
-    padding-left: 80px;
-    
 
- }
-  #collection div  h3{
-    font-size: 30px;
-    padding-left: 40px;
-  }
+ 
   #collection div a{
-    color: goldenrod;
-    font-size: 30px;
-    border-radius: 2px;
-    padding-left: 70PX;
+    color: grey;
+    font-size:30px;
+ 
+    
     text-decoration: none;
-    ;
+    margin-bottom: 30px;
+   
    
   }
   #collection h2{
     text-align: center;
-    padding-left: 80px;
+   
     font-size: 50px;
-    color: goldenrod;
+    
   } 
+  #collection h2:hover{
+    color: #98c1d9;
+    transition: 1s ease;
+  }
+
+#beer img{
+   grid-column: 1/-1;
+   padding-left: 78px;
+  
+}
+#beer a {
+    text-align: center;
+    grid-column: 1/-1;
+}
+#vodka img{
+    grid-column: 1/-1;
+    padding-left: 78px;
+   
+ }
+ #vodka a {
+     text-align: center;
+     grid-column: 1/-1;
+ }
+ #wine img{
+    grid-column: 1/-1;
+    padding-left: 78px;
+   
+ }
+ #wine a {
+     text-align: center;
+     grid-column: 1/-1;
+ }
+ #gin img{
+    grid-column: 1/-1;
+    padding-left: 78px;
+   
+ }
+ #gin a {
+     text-align: center;
+     grid-column: 1/-1;
+ }
+
   #contact-text {
 	grid-column: 1/-1;
 	/* Remove as content will dictate height */
@@ -100,25 +199,26 @@ input, textarea {
     padding: 12px;
    border: 2px solid ;
     border-radius:  15px;
-    background-color:black;
+    
     margin-bottom: 30px;
     font: inherit;
 	font-size: 15px;
-	color:goldenrod;
+	
 	
 }
 input[type="submit"] {
     width: 150px;
     padding: 16px 32px;
-    background-color:black;
+   
     color: #fff;
     border: none;
     transition: all 200ms ease-in;
     align-self: center;
+    background-color: #000;
 }
 
 input[type="submit"]:hover {
-    background-color: goldenrod;
+    background-color: skyblue;
     border-radius: 0;
 }
 
@@ -143,7 +243,7 @@ input[type="submit"]:hover {
         grid-column: 1/4;
         list-style: none;
         font-size: 19px;
-        padding: 30px;
+        
         margin: 0;
     }
      #footer-nav ul li {
@@ -152,11 +252,12 @@ input[type="submit"]:hover {
      }
      
      #footer-nav ul li a{ color:black;
-    align-items: center;
-    grid-column: 1/4;
-    padding-bottom: 40px;
    
-    list-style: none;
+   
+   padding-bottom: 6px;
+    
+   
+    
 text-decoration: none;}
     
     #footer-logo{
@@ -170,10 +271,13 @@ text-decoration: none;}
     #footer p{
         grid-column: 1/-1;
     }
+    #footer{
+        box-shadow: 2px 1px 10px 10px #98c1d9;
+    }
  /* new arrival page rules goes here*/
 
 #new-arrival h2{
-    font-size: 40px;
+    font-size: 30px;
     margin: auto;
     padding-top: 30px;
     padding-left: 15px;
@@ -181,16 +285,20 @@ text-decoration: none;}
 
 
  #new-arrival p{
-    font-size: 30px;
+    font-size: 20px;
    text-align: right;
    color: goldenrod;
    
     margin: 0;
     padding: 0;
+    padding-right: 10px;
    
    
     
     
+}
+#footer{
+    background-image: url(../IMAGES/footer-mobile-80.jpg);
 }
     
 
@@ -198,27 +306,40 @@ text-decoration: none;}
 #white-ultra img{
     grid-column: 1/4;
     padding-top: 20px;
+   
 }
 
 #white-ultra h2{
     font-size: 20PX;
     grid-column: 1/3;
+    padding-left: 20px;
+    padding-top: 10px;
+    
+  
+    
   
    
 
 }
 #white-ultra a{
-    color: #000;
+    color: white;
     grid-column: 3/-1;
    font-size: 20px;
    padding-top: 18px;
    padding-left: 60px;
+   background-color: #000;
+ 
   
 
   text-decoration: none;
  
 }
 
+#white-ultra a:hover{
+    background-color: #98c1d9;
+    transition: 1s ease;
+  
+}
 
 #golden img{
     grid-column: 1/4;
@@ -228,21 +349,31 @@ text-decoration: none;}
 #golden h2{
     font-size: 20PX;
     grid-column: 1/3;
-  
+    padding-left: 20px;
+    padding-top: 10px;
    
 
 }
 #golden a{
-    color: #000;
+    color: white;
     grid-column: 3/-1;
    font-size: 20px;
    padding-top: 18px;
    padding-left: 60px;
+   background-color: #000;
+ 
   
 
   text-decoration: none;
  
 }
+#golden a:hover{
+    background-color: #98c1d9;
+    transition: 1s ease;
+  
+}
+
+
 
 
 #ultra-golden img{
@@ -253,21 +384,30 @@ text-decoration: none;}
 #ultra-golden h2{
     font-size: 20PX;
     grid-column: 1/3;
-  
+    padding-left: 20px;
+    padding-top: 10px;
    
 
 }
 #ultra-golden a{
-    color: #000;
+    color: white;
     grid-column: 3/-1;
    font-size: 20px;
    padding-top: 18px;
    padding-left: 60px;
+   background-color: #000;
+ 
   
 
   text-decoration: none;
  
 }
+#ultra-golden a:hover{
+    background-color: #98c1d9;
+    transition: 1s ease;
+  
+}
+
 
 
 #RED-EYE img{
@@ -278,19 +418,28 @@ text-decoration: none;}
 #RED-EYE h2{
     font-size: 20PX;
     grid-column: 1/3;
-  
+    padding-left: 20px;
+    padding-top: 10px;
    
 
 }
 #RED-EYE a{
-    color: #000;
+    color: white;
     grid-column: 3/-1;
    font-size: 20px;
    padding-top: 18px;
    padding-left: 60px;
+   background-color: #000;
+ 
   
 
   text-decoration: none;
  
 }
+#RED-EYE a:hover{
+    background-color: #98c1d9;
+    transition: 1s ease;
+  
+}
+
 
