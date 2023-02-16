@@ -80,10 +80,7 @@ text-decoration: none;}
    
     
 }
-.transformed {
-    -webkit-transform: translate3d(100px, 25px, 50px); /* Chrome, Safari, Opera */
-    transform: translate3d(25px, 25px, 50px); /* Standard syntax */
-}
+
 
 #new-arrivals h2 {
     font-size: 60px;
@@ -92,6 +89,10 @@ text-decoration: none;}
     margin: 0;
     padding-top: 40px;
     color: #000;
+}
+
+#new-arrivals h2:hover{
+    color: #98c1d9;
 }
  #banner h2 {
     text-align: left;
@@ -116,21 +117,29 @@ text-decoration: none;}
     
  }
 
- #banner button a{
+ #banner  a{
    
     text-decoration: none;
     color: white;
+    font-size: 25px;
+    border: 1px solid white;
+    text-align: center;
    
    
  }
+ #banner  a:hover{
+    background-color: #98c1d9;
+    transition: 1s ease;
+ }
   
- #banner button {
+ #banner a{
     margin-left: auto;
-    width: 200px;
-    height: 70px;
+   height: 40px
+   ;
+   width: 170px;
+   
     margin-right: 20px;
-    margin-top: 20px;
-    background-color: #000;
+    margin-top: 30px;;
  
     
  }
@@ -370,12 +379,12 @@ font-size: 25px;}
 
 }
 #white-ultra a{
-    color: #000;
+   
     grid-column: 9/12;
    font-size: 30px;
   padding-top: 20px;
    text-decoration: none;
-   border: 1px solid black;
+   border: 1px solid ;
    height: 50px;
    text-align: center;
    margin-top: 40px;
@@ -391,12 +400,12 @@ font-size: 25px;}
 
 }
 #golden  a{
-    color: #000;
+    
     grid-column: 9/12;
    font-size: 30px;
   padding-top: 20px;
    text-decoration: none;
-   border: 1px solid black;
+  
    height: 50px;
    text-align: center;
    margin-top: 40px;
@@ -415,12 +424,12 @@ font-size: 25px;}
 
 }
 #ultra-golden a{
-    color: #000;
+   
     grid-column: 9/12;
    font-size: 30px;
   padding-top: 20px;
    text-decoration: none;
-   border: 1px solid black;
+  
    height: 50px;
    text-align: center;
    margin-top: 40px;
@@ -440,12 +449,12 @@ font-size: 25px;}
 }
 #RED-EYE a{
    
-        color: #000;
+       
         grid-column: 9/12;
        font-size: 30px;
       padding-top: 20px;
        text-decoration: none;
-       border: 1px solid black;
+       
        height: 50px;
        text-align: center;
        margin-top: 40px;
