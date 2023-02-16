@@ -17,6 +17,9 @@
     grid-template-columns: repeat(4, 77px);
     grid-column-gap:30px;
 }
+
+
+
 #main-header{
     grid-column:1/-1;
     
