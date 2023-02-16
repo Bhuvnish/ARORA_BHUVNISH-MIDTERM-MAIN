@@ -21,6 +21,10 @@
     grid-column: 1/3;
     margin-top: 35px;
 }
+#header-logo:hover{
+    width: 200px;
+   
+}
 
 #main-header{
     box-shadow: 2px 1px 20px 20px #98c1d9;
@@ -44,7 +48,7 @@
  
  #main-nav ul li a{ color:black;
 align-items: center;
-padding-right: 15px;
+margin-right: 15px;
 list-style: none;
 text-decoration: none;}
 
@@ -89,6 +93,7 @@ text-decoration: none;}
     margin: 0;
     padding-top: 40px;
     color: #000;
+    box-shadow: 10px 5px 10PX 5PX black;
 }
 
 #new-arrivals h2:hover{
@@ -101,6 +106,7 @@ text-decoration: none;}
     background-color: #000;
     color: white;
     padding-left: 20px;
+    
  }
 
  #new-arrivals img {
@@ -114,6 +120,7 @@ text-decoration: none;}
     background-color: #000;
     color: white;
    
+   
     
  }
 
@@ -124,6 +131,7 @@ text-decoration: none;}
     font-size: 25px;
     border: 1px solid white;
     text-align: center;
+    padding-top: 10px;
    
    
  }
@@ -356,7 +364,17 @@ font-size: 25px;}
     
     margin-right: 300px;
 }
+
+#new-arrival h3:hover {
+    font-size: 50px;
+    transition: 1s ease;
+}
+
     
+#new-arrival h2:hover {
+    font-size: 90px;
+    transition: 1s ease;
+}
 
 #new-arrival h2 {
     font-size: 40px;
@@ -391,6 +409,21 @@ font-size: 25px;}
    background-color: black;
    color: aliceblue;
  
+}
+
+
+
+#white-ultra a:hover{
+    background-color: #98c1d9;
+}
+#golden a:hover{
+    background-color: #98c1d9;
+}
+#ultra-golden a:hover{
+    background-color: #98c1d9;
+}
+#RED-EYE a:hover{
+    background-color: #98c1d9;
 }
 
 #golden h2{

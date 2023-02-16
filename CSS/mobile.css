@@ -57,13 +57,15 @@
     margin-top: 40px;
     margin-bottom: 10px;
 }
-
+#new-arrivals h2:hover{
+    color: #98c1d9;
+}
 
 #new-arrivals img {
     grid-column: 1/-1;}
 
 #new-arrivals {
-    box-shadow: 2px 1px 10px 0px #98c1d9;
+    box-shadow: 10px 10px 50px 20px black;
 }
 #new-arrivals h2:hover{
     color: #98c1d9;
@@ -270,6 +272,10 @@ text-decoration: none;}
         height: 80px;
         
     } 
+     #footer img:hover{
+        width: 220px;
+        height: 100px;
+     }
     
     #footer p{
         grid-column: 1/-1;
@@ -284,6 +290,10 @@ text-decoration: none;}
     margin: auto;
     padding-top: 30px;
     padding-left: 15px;
+}
+#new-arrival h2:hover{
+    color: #98c1d9;
+    transition: 1s ease;
 }
 
 
@@ -300,6 +310,10 @@ text-decoration: none;}
     
     
 }
+#new-arrival p:hover{
+    font-size: 23px;
+transition: 1s ease;}
+
 #footer{
     background-image: url(../IMAGES/footer-mobile-80.jpg);
 }
