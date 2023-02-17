@@ -26,23 +26,69 @@
         box-shadow: 2px 1px 20px 20px #98c1d9;
    
 }
+#main-nav {
+    grid-column: 1/-1;
+  
+}
+
+#main-nav label img {
+	background: url(../images/burger.svg) center no-repeat;
+	border: 0px;
+	width: 50px;
+	height: 40px;
+	transition: all .5s ease;
+    margin-top: 10px;
+    
+    
+    cursor: pointer;
+    
+}
+
+
+#main-nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+ }
+ 
+ #main-nav li a {
+     display: block;
+     padding: 10px 0 10px 0;
+     text-align: center;
+     color: #626262;
+     text-decoration: none;
+ }
+ 
+ #main-nav li {
+     border-bottom: 1px solid #efefef;
+ }
+ 
+ #main-nav li:first-child {
+     border-top: 1px solid #efefef;
+ }
+ 
+ #main-nav li:last-child {
+     margin-bottom: 10px;
+ }
+
+#burger-con, #main-nav input {
+    display: none;
+}
+
+ #main-nav input:checked ~ #burger-con {
+    display: block;
+ }
+
+ #main-nav input:checked ~ label img{
+    transform: rotate(90deg);
+ }
 
 
 #header-logo{ 
-    grid-column: 1/2;
+    grid-column: 2/-1;
    
 }
-#burger{
-    height: 40px;
-    width: 80px;
-    grid-column: 4/-1;
-  
-  
-   padding: 0px;
-   margin-bottom: 0px;
-   
-    
-}
+
 #hero-image{
     grid-column: 1/-1;
     padding: 0px;
@@ -279,6 +325,7 @@ text-decoration: none;}
     
     #footer p{
         grid-column: 1/-1;
+        font-size: 16px;
     }
     #footer{
         box-shadow: 2px 1px 10px 10px #98c1d9;
@@ -342,10 +389,12 @@ transition: 1s ease;}
     color: white;
     grid-column: 3/-1;
    font-size: 20px;
-   padding-top: 18px;
-   padding-left: 60px;
+   margin-top: 18px;
+  margin-left: 60px;
    background-color: #000;
  
+ text-align: center;
+ margin-bottom: 15px;
   
 
   text-decoration: none;
@@ -375,10 +424,12 @@ transition: 1s ease;}
     color: white;
     grid-column: 3/-1;
    font-size: 20px;
-   padding-top: 18px;
-   padding-left: 60px;
+   margin-top: 18px;
+  margin-left: 60px;
    background-color: #000;
  
+ text-align: center;
+ margin-bottom: 15px;
   
 
   text-decoration: none;
@@ -410,14 +461,15 @@ transition: 1s ease;}
     color: white;
     grid-column: 3/-1;
    font-size: 20px;
-   padding-top: 18px;
-   padding-left: 60px;
+   margin-top: 18px;
+  margin-left: 60px;
    background-color: #000;
  
+ text-align: center;
+ margin-bottom: 15px;
   
 
   text-decoration: none;
- 
 }
 #ultra-golden a:hover{
     background-color: #98c1d9;
@@ -444,19 +496,25 @@ transition: 1s ease;}
     color: white;
     grid-column: 3/-1;
    font-size: 20px;
-   padding-top: 18px;
-   padding-left: 60px;
+   margin-top: 18px;
+  margin-left: 60px;
    background-color: #000;
  
+ text-align: center;
+ margin-bottom: 15px;
   
 
   text-decoration: none;
+  
  
 }
 #RED-EYE a:hover{
     background-color: #98c1d9;
     transition: 1s ease;
   
+}
+#RED-EYE{
+    margin-bottom: 20px;
 }
 
 
